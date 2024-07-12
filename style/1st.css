@@ -125,6 +125,9 @@ main section{
     display: flex;
     gap: 24px;
 }
+.section-description{
+    padding: 20px;
+}
 .skill{
     padding: 30px;
     border-radius: 5px;
@@ -133,7 +136,6 @@ main section{
 /* resume styls */
 .section-title{
     text-align: center;
-    margin: 130px;
 }
 .resume-container{
     display: flex;
@@ -154,4 +156,26 @@ main section{
 }
 .resume-download-button{
     margin-top: 50px;
+}
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.section-title{
+    text-align: left;
+}
+.footer-colum{
+    width: 50%;
+}
+input[type="text"],footer input[type="email"],footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
 }
