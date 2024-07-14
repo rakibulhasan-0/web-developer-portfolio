@@ -42,6 +42,7 @@
 }
 .text-center{
     text-align: center;
+    
 }
 /* Nav Styles */
 nav{
@@ -105,6 +106,8 @@ main section{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     
     
 }
@@ -135,7 +138,8 @@ main section{
 }
 /* resume styls */
 .section-title{
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .resume-container{
     display: flex;
@@ -163,7 +167,8 @@ footer{
     display: flex;
     gap: 100px;
 }
-.section-title{
+.section-title-footer{
+    font-size: 35px;
     text-align: left;
 }
 .footer-colum{
@@ -179,3 +184,8 @@ input[type="text"],footer input[type="email"],footer textarea{
     margin-bottom: 24px;
     border: none;
 }
+/* @media screen and (max-width: 576px) {
+    .skills-container{
+        flex-direction: column;
+    }
+} */
